@@ -5,21 +5,24 @@ const translations = {
         choose_os: "Choose your operating system",
         windows: "Windows",
         macos: "MacOS",
-        back_to_main: "Back to main"
+        back_to_main: "Back to main",
+        windowsTitle: "Windows Hotkeys",
     },
     ru: {
         welcome: "Добро пожаловать в учебник горячих клавиш! Вы когда-нибудь задумывались, как быстро выполнить действие на компьютере? Тогда этот сайт для вас!",
         choose_os: "Выберите вашу операционную систему",
         windows: "Windows",
         macos: "MacOS",
-        back_to_main: "На главную"
+        back_to_main: "На главную",
+        windowsTitle: "Горячие клавиши Windows",
     },
     uk: {
         welcome: "Ласкаво просимо до посібника з гарячих клавіш! Ви коли-небудь замислювалися, як швидко виконати дію на комп'ютері? Тоді цей сайт для вас!",
         choose_os: "Виберіть вашу операційну систему",
         windows: "Windows",
         macos: "MacOS",
-        back_to_main: "На головну"
+        back_to_main: "На головну",
+        windowsTitle: "Гарячі клавіші Windows",
     }
 };
 
