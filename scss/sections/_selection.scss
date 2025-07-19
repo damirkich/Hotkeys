@@ -1,0 +1,39 @@
+.selection__section {
+    height: fit-content;
+
+    &--title {
+        text-align: center;
+        font-size: 50px;
+        font-family: $font-family;
+    }
+
+    &--cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        justify-content: center;
+        &-item {
+            display: flex;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            &-link {
+                display: flex;
+                flex-direction: column;
+                &-image {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 10px 10px 0 0;
+                }
+            }
+
+            &-text {
+                padding: 20px;
+                font-size: 20px;
+                font-family: $font-family;
+                color: #333;
+                text-align: center;
+                border-top: #ccc solid 3px;
+            }
+        }
+    }
+}

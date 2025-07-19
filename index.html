@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotkeys Guide</title>
+    <link rel="stylesheet" href="./css/styles.min.css">
+</head>
+<body>
+    <div class="language-switcher-container">
+        <select id="language-switcher">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="uk">Українська</option>
+        </select>
+    </div>
+
+    <main class="main">
+        <h1 data-i18n="welcome" class="main--title">Welcome to hotkeys Guide! Have you ever wondered how to do an action on a pc quickly? Well, then this website is for you!</h1>
+
+        <section class="selection__section">
+            <h2 class="selection__section--title" data-i18n="choose_os">Choose your operating system</h2>
+            <div class="selection__section--cards">
+                <div class="selection__section--cards-item">
+                    <a href="windows.html" class="selection__section--cards-item-link">
+                        <img src="./img/windows2.jpg" alt="Windows Logo" class="selection__section--cards-item-link-image">
+                        <span class="selection__section--cards-item-text" data-i18n="windows">Windows</span>
+                    </a>
+                </div>
+                <div class="selection__section--cards-item">
+                    <a href="macos.html" class="selection__section--cards-item-link">
+                        <img src="./img/apple.png" alt="Mac Logo" class="selection__section--cards-item-link-image">
+                        <span class="selection__section--cards-item-text" data-i18n="macos">MacOS</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a class="BTM" href="index.html" data-i18n="back_to_main">Back to main</a>
+
+    <script src="./js/languageSwitch.js"></script>
+</body>
+</html>
